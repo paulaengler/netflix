@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    background-image: url('./poster.png');
+    background-size: cover; /* Faz com que a imagem cubra toda a área disponível */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center center; /* Centraliza a imagem */
+}
+
+.menu {
+    background-color: transparent;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    padding: 2em 25vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* list-style-type - tira as bolinhas do ul 
+2em - cima e baixo */
+
+ul li {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px; /* Espaçamento superior de 20 pixels */
+    margin-bottom: 20px; /* Espaçamento inferior de 20 pixels */
+    padding: 20px; /* Adiciona preenchimento interno para visualização */
+}
+
+.esquerda span {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+    width: 500px; /* Define a largura do elemento */
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que ultrapassa a largura do elemento */
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Define o espaçamento entre os itens */
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icone {
+    width: 1%;
+    height: 1%;
+    background-color: transparent;
+}
+
+.central {
+    justify-content: right;
+}
+
+.imagem {
+    display: flex;
+    width: 200px;
+    height: auto;
+    top: 201px; 
+    left: 870px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin: 0 10px ; /* Adiciona 10px de margem à esquerda e à direita de cada item */
+}

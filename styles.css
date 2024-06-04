@@ -2,6 +2,116 @@
     margin: 0;
     color: white;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100%;   
+    /* background-image: url('./imgs/poster.png');
+    background-repeat: cover; */
+    
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;    
+    list-style-type: none;
+    padding: 2em 25vw;
+    justify-content: space-between;
+    align-items: flex-end
+
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.info_serie {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.titulo {
+    font-size: 18px;
+}
+
+.genero {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;    
+}
+
+.episodios {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card-episodio {
+    width: 230px;
+    height: 135px;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+}
+
+.m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-b-28 {
+    margin-bottom: 28px;
+}
+
+.m-t-56 {
+    margin-top: 56px;
+}
+
+.poster {
+    width: 392px;
+}
+
+.ph-30 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.social {
+    width: 30px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+/* PAULA
+
+* {
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -12,11 +122,11 @@
     display: flex;
     flex-direction: column;
     background-color: black;
-    height: 100vh;
+    height: 100%;
     background-image: url('./poster.png');
-    background-size: cover; /* Faz com que a imagem cubra toda a área disponível */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-position: center center; /* Centraliza a imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área disponível 
+    background-repeat: no-repeat; /* Evita a repetição da imagem 
+    background-position: center center; /* Centraliza a imagem 
 }
 
 .menu {
@@ -33,7 +143,7 @@
 }
 
 /* list-style-type - tira as bolinhas do ul 
-2em - cima e baixo */
+2em - cima e baixo 
 
 ul li {
     cursor: pointer;
@@ -50,9 +160,23 @@ ul li {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 20px; /* Espaçamento superior de 20 pixels */
-    margin-bottom: 20px; /* Espaçamento inferior de 20 pixels */
-    padding: 20px; /* Adiciona preenchimento interno para visualização */
+    width: 450px;
+    margin-top: 20px; /Espaçamento superior de 20 pixels 
+    margin-bottom: 20px; /* Espaçamento inferior de 20 pixels 
+    padding: 20px; Adiciona preenchimento interno para visualização 
+}
+
+.titulo {
+    font-size: 18px;
+}
+
+.genero {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.descricao {
+
 }
 
 .esquerda span {
@@ -61,14 +185,14 @@ ul li {
     font-weight: 300;
     line-height: 15px;
     text-align: left;
-    width: 500px; /* Define a largura do elemento */
-    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que ultrapassa a largura do elemento */
+    width: 500px; /* Define a largura do elemento 
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que ultrapassa a largura do elemento 
 }
 
 .direita {
     display: flex;
     flex-direction: column;
-    gap: 30px; /* Define o espaçamento entre os itens */
+    gap: 30px; /* Define o espaçamento entre os itens 
     justify-content: center;
     align-items: flex-end;
 }
@@ -101,5 +225,10 @@ ul li {
 }
 
 .footer li {
-    margin: 0 10px ; /* Adiciona 10px de margem à esquerda e à direita de cada item */
-}
+    margin: 0 10px ; /* Adiciona 10px de margem à esquerda e à direita de cada item 
+} 
+
+*/
+
+
+
